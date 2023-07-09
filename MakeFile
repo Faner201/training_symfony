@@ -43,5 +43,5 @@ dc_restart:
 ##################
 
 app_bash:
-	${DOCKER_COMPOSE} exec -u www-data php-fpm bash
+	${DOCKER_COMPOSE} exec -u root php-fpm bash
 
