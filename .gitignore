@@ -24,3 +24,7 @@
 ###< friendsofphp/php-cs-fixer ###
 
 .deptrac.cache
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
